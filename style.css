@@ -171,18 +171,13 @@ body{
     margin-bottom: 80px;
     line-height: 1.3;
 }
-.imac{
-    display: flex;
 
-    position: relative;
-    left: -40px;
-}
 .imac .container{ 
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 80px;
     gap: 100px;
+    margin-bottom: 80px;
+  
 }
 
 .imac .container .text-1 h3{
@@ -202,9 +197,6 @@ body{
     line-height: 1.3;
 }
 
-.imac  .img {
-
-}
 
 
 
@@ -223,6 +215,7 @@ body{
         flex-direction: column;
         align-items: center;
         justify-self: center;
+        gap: 50px;
         
     }
     .imac .container .img img{
