@@ -1,0 +1,458 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root{
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.container{
+    padding-left: 15px;
+    padding-right:15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    
+    
+}
+
+
+
+
+
+@media (min-width:768px) {
+    .container{
+        width: 750px;
+    }
+        
+    }
+    @media (min-width:992px) {
+    .container{
+        width: 970px;
+    }
+        
+    }
+    @media (min-width:1200px) {
+    .container{
+        width: 1170px;
+    }
+        
+    }
+
+    header{
+        background-image: url("bg-header-desktop.png");
+        background-size: cover;
+       
+    }
+    header .container .logo{
+        display: flex;
+        justify-content: center;    
+        margin-bottom: 10px;
+        
+
+    }
+
+
+        header .container .title{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: 'Bai Jamjuree', sans-serif;
+        }
+        header .container .title h1{
+            font-size: 50px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color:var(--Dark-Grayish-Blue);
+            
+        }
+
+        header .container .title p{
+            font-size: 18px;
+           
+            text-align: center;
+            margin-bottom: 30px;
+            color: var(--Grayish-Blue);
+            line-height: 1.3;
+
+        }
+
+        header .container .buttons{
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+        header .container .buttons a{
+            text-decoration: none;
+            color: white;
+            display: block;
+            padding: 20px 30px;
+            border-radius: 40px;
+            font-family: 'Bai Jamjuree', sans-serif;
+            margin-bottom: 30px;
+        }
+
+        header .container .buttons a:hover{
+                filter: brightness(130%);
+               
+        }
+        header .container .buttons .firstchild{
+            background-color: var(--Strong-Cyan);
+        }
+        header .container .buttons .lastchild{
+            background-color: var(--Light-Blue);
+        }
+
+
+
+
+
+
+        @media (min-width:300px) and (max-width:500px){
+            .container{
+                width: 250px;
+                padding-top: 10px;
+            }
+            header{
+                background-image: url("bg-header-mobile.png");
+                background-size: cover;
+                
+                
+            }
+            header .container .title h1{
+                font-size: 21px;
+                text-align: center;
+            }
+            header .container .title p{
+                font-size: 10px;
+            }
+            header .container .buttons a{
+                margin-bottom: 0;
+            }
+            header .container .buttons{
+                flex-direction: column;
+                gap: 10px;
+                text-align: center;
+            }
+            }
+
+
+
+
+.content .container{
+    text-align: center;
+}
+.content .container h2{
+    color:var(--Dark-Grayish-Blue);
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+.content .container p{
+    font-size: 18px;
+    color: var(--Grayish-Blue);
+    font-family: 'Bai Jamjuree', sans-serif;
+    word-spacing: 1px;
+    margin-bottom: 80px;
+    line-height: 1.3;
+}
+
+.imac{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 80px;
+}
+.imac .text-1 h3{
+    color:var(--Dark-Grayish-Blue);
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px
+}
+.imac .text-1 p{
+    font-size: 18px;
+    color: var(--Grayish-Blue);
+    font-family: 'Bai Jamjuree', sans-serif;
+    word-spacing: 1px;
+    margin-bottom: 50px;
+    line-height: 1.3;
+}
+
+.imac .img {
+position: relative;
+left: -50px;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:300px) and (max-width:500px){
+    .container{
+        width: 250px;
+        padding-top: 10px;
+    }
+    .imac{
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+        
+    }
+    .imac .img img{
+        width: 50%;
+    }
+    .imac .img{
+        position:relative;
+        left: 25%;
+    
+    }
+    .imac .text-1 p,.imac .text-1 h3{
+        text-align: center;
+    }
+    .devices img{
+        width: 80%;
+
+    }
+    .sponsers .container{
+        display: flex;
+       flex-direction: column;
+     row-gap: 60px;
+
+     align-items: center;
+    
+    }
+    .sponsers .container img{
+        width: 70%;
+    }
+}
+
+
+
+.content .container h4{
+    color:var(--Dark-Grayish-Blue);
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.devices{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
+.sponsers .container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+.buttons .container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.buttons .container a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px 30px;
+    border-radius: 40px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-bottom: 30px;
+    margin-top: -50px;
+}
+.buttons .container .firstchild{
+    background-color: var(--Strong-Cyan);
+}
+.buttons .container .lastchild{
+    background-color: var(--Light-Blue);
+}
+
+ .buttons a:hover{
+    filter: brightness(130%);
+   
+}
+
+
+
+
+@media (min-width:300px) and (max-width:500px){
+    .container{
+        width: 250px;
+        padding-top: 10px;
+    }
+    .buttons .container{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+        display: flex;
+        justify-self: center;
+    }
+    
+}
+
+
+
+
+
+footer a{
+    text-decoration: none;
+    color: var(--Dark-Grayish-Blue);
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+}
+footer .container .logo img{
+    width: 50%;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+footer .container .first-line{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+
+
+
+footer .container .icons{
+    display: flex;
+    gap: 15px;
+    align-self: flex-end;
+}
+
+
+footer .container .icons img:hover{
+    background-color: var(--Strong-Cyan);
+    cursor: pointer;
+}
+footer .container .first-line a:hover{
+    color: var(--Strong-Cyan);
+    cursor: pointer;
+}
+@media (min-width:300px) and (max-width:500px){
+    .container{
+        width: 250px;
+        padding-top: 10px;
+    }
+    footer .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .container .icons{
+        align-self: center;
+    }
+    footer .container .first-line{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    footer .container .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+.special .container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    align-items: center;
+}
+
+.special .container .box{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-family: 'Bai Jamjuree', sans-serif;
+
+}
+.special .container .box img{
+    margin-bottom: 20px;
+}
+.special .container .box h4{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color:var(--Dark-Grayish-Blue);
+}
+
+.special .container .box p{
+    text-align: center;
+    font-size: 18px;
+           
+    text-align: center;
+    margin-bottom: 30px;
+    color: var(--Grayish-Blue);
+    line-height: 1.3;
+    width: fit-content;
+
+}
+
+
+
+
+
+@media (min-width:300px) and (max-width:500px){
+    .special .container{
+        flex-direction: column;
+    }
+
+    .special .container .box h4{
+        font-size: 20px;
+    }
+}
