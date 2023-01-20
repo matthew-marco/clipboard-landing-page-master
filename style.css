@@ -169,20 +169,25 @@ body{
     line-height: 1.3;
 }
 
-.imac{
+.imac .container{ 
     display: flex;
     align-items: center;
-    gap: 50px;
+justify-content: center;
     margin-bottom: 80px;
+    gap: 100px;
 }
-.imac .text-1 h3{
+.imac .container .texts{
+    margin-left: -150px;
+}
+.imac .container .text-1 h3{
     color:var(--Dark-Grayish-Blue);
     font-family: 'Bai Jamjuree', sans-serif;
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px
+
 }
-.imac .text-1 p{
+.imac .container .text-1 p{
     font-size: 18px;
     color: var(--Grayish-Blue);
     font-family: 'Bai Jamjuree', sans-serif;
@@ -191,9 +196,9 @@ body{
     line-height: 1.3;
 }
 
-.imac .img {
+.imac .container .img {
 position: relative;
-left: -50px;
+left: -450px;
 }
 
 
@@ -209,21 +214,21 @@ left: -50px;
         width: 250px;
         padding-top: 10px;
     }
-    .imac{
+    .imac .container{
         flex-direction: column;
         align-items: center;
         justify-self: center;
         
     }
-    .imac .img img{
+    .imac .container .img img{
         width: 50%;
     }
-    .imac .img{
+    .imac .container .img{
         position:relative;
         left: 25%;
     
     }
-    .imac .text-1 p,.imac .text-1 h3{
+.imac .container .text-1 p,.imac .text-1 h3{
         text-align: center;
     }
     .devices img{
