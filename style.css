@@ -168,17 +168,20 @@ body{
     margin-bottom: 80px;
     line-height: 1.3;
 }
+.imac{
+    display: flex;
 
+    position: relative;
+    left: -40px;
+}
 .imac .container{ 
     display: flex;
     align-items: center;
-justify-content: center;
+    justify-content: center;
     margin-bottom: 80px;
     gap: 100px;
 }
-.imac .container .texts{
-    margin-left: -150px;
-}
+
 .imac .container .text-1 h3{
     color:var(--Dark-Grayish-Blue);
     font-family: 'Bai Jamjuree', sans-serif;
@@ -196,9 +199,8 @@ justify-content: center;
     line-height: 1.3;
 }
 
-.imac .container .img {
-position: relative;
-left: -450px;
+.imac  .img {
+
 }
 
 
