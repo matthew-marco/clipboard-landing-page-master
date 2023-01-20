@@ -56,6 +56,9 @@ body{
         background-size: cover;
        
     }
+header .container {
+ margin-bottom: 80px;
+}
     header .container .logo{
         display: flex;
         justify-content: center;    
